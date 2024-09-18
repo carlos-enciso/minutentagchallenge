@@ -1,0 +1,48 @@
+.Products {
+	display: flex;
+	text-align: center;
+	background: #fafafa;
+	min-height: 100%;
+	flex-direction: column;
+}
+
+.contentContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.textContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+.greetingText {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: #646464;
+	opacity: 0.6;
+	margin: 5px 0;
+}
+.welcomeText {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 31px;
+	color: #323232;
+	margin: 5px 0;
+}
+.productsText {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 23px;
+	color: #323232;
+	margin: 15px 0 0;
+}

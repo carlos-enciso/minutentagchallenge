@@ -1,0 +1,13 @@
+.app {
+	background: #fafafa;
+	min-width: 375px;
+	min-height: 812px;
+	padding: 12px 24px;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper {
+	display: flex;
+	flex: 1 1 auto;
+}

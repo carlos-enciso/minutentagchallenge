@@ -1,0 +1,42 @@
+.topNavigation {
+	display: flex;
+	min-width: 100%;
+	min-height: 40px;
+	justify-content: space-between;
+	align-items: center;
+	flex: 0 1 auto;
+}
+.back {
+	display: flex;
+	width: 40px;
+	height: 40px;
+}
+
+.menu {
+	display: flex;
+	width: 40px;
+	height: 40px;
+	background: #ffffff;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+.secundaryMenu {
+	align-self: flex-end;
+}
+
+.detailTitle {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 23px;
+	color: #323232;
+}
+
+.profilePicture {
+	width: 40px;
+	height: 40px;
+	background: #c4c4c4;
+	border-radius: 50%;
+}

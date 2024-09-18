@@ -1,0 +1,194 @@
+.detailContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 1 1 auto;
+}
+
+.imageContainerDetail {
+	display: flex;
+	padding-top: 5px;
+	width: 240px;
+	height: 240px;
+	justify-content: center;
+}
+
+.informationDetailContainer {
+	display: flex;
+	flex-direction: column;
+	background: #ffffff;
+	border-radius: 48px 48px 0px 0px;
+	padding: 20px;
+	margin-top: 30px;
+	flex: 1 1 auto;
+}
+
+.nameText {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 31px;
+	color: #0f0d23;
+}
+
+.priceText {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 31px;
+	color: #ff9f24;
+}
+
+.originStockContainer {
+	display: flex;
+	flex-direction: row;
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #969696;
+	min-width: 160px;
+	max-width: 200px;
+	justify-content: space-between;
+}
+
+.originText {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #969696;
+}
+
+.stockText {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #969696;
+}
+
+.descriptionTitle {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 21px;
+	color: #323232;
+}
+
+.descriptionContainer {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #969696;
+}
+.skusContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.skuDetailContainer {
+	box-sizing: border-box;
+	border: 1px solid #969696;
+	border-radius: 15.5px;
+	padding: 5px;
+	min-width: 85px;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.skuDetailContainerSelected {
+	box-sizing: border-box;
+	border: 1px solid #ff9f24;
+	border-radius: 15.5px;
+	padding: 5px;
+	min-width: 85px;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.skuNameContainer {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #969696;
+}
+
+.skuNameContainerSelected {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #ff9f24;
+}
+
+.readMoreText {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 24px;
+	color: #ff9f24;
+	cursor: pointer;
+}
+
+.footerContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: auto;
+}
+
+.addToBagContainer {
+	display: flex;
+	height: 54px;
+	width: 54px;
+	box-sizing: border-box;
+	border: 0.8px solid #ff9f24;
+	border-radius: 12px;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.addToCartContainer {
+	display: flex;
+	width: 247px;
+	height: 54px;
+	background: #ff9f24;
+	border-radius: 12px;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+.addToCartText {
+	font-family: 'DM Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.namePriceContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
